@@ -145,7 +145,7 @@ const Room = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full border-2 rounded-lg relative">
+      <div className="w-[80%] h-full border-2 rounded-lg relative">
         {remoteSocketId ? (
           <p className="absolute right-2 text-green-400 text-xl">Connected</p>
         ) : (
